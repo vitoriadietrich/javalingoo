@@ -1,0 +1,103 @@
+.sos-entry{display:grid;grid-template-columns:58px minmax(0,1fr) auto;align-items:center;gap:18px;margin:20px 0 0;padding:20px 23px;border:1px solid #87cbb4;border-radius:20px;background:linear-gradient(115deg,#e1f7ec 0%,#f5fbf7 58%,#fff4e7 100%);color:#174b41;box-shadow:0 10px 25px #16483b12}
+.sos-entry-symbol{display:grid;place-items:center;width:56px;height:56px;border-radius:16px;background:#186b5a;color:#fff;box-shadow:0 7px 17px #186b5a40}
+.sos-entry-symbol svg{width:27px;height:27px}
+.sos-entry h2{margin:3px 0;font-size:23px;letter-spacing:-.6px}
+.sos-entry p{margin:0;color:#53766b;font-size:14px;line-height:1.45}
+.sos-entry button{border:0;border-radius:12px;padding:13px 17px;background:#176c59;color:#fff;font-size:14px;font-weight:850}
+.sos-entry button:hover{background:#105442}
+.sos-page{max-width:1130px;margin:0 auto;color:#203e3a}
+.sos-hero{position:relative;display:flex;align-items:center;min-height:255px;overflow:hidden;padding:32px 215px 32px 35px;border-radius:24px;background:radial-gradient(circle at 85% 28%,#448f72,#1d5e54 43%,#153c40 90%);color:#fff}
+.sos-hero:before{content:"";position:absolute;width:370px;height:370px;border:1px solid #d5f7db30;border-radius:50%;right:-50px;top:-65px;box-shadow:0 0 0 45px #d5f7db12,0 0 0 85px #d5f7db0b}
+.sos-hero>div{position:relative;z-index:1}
+.sos-hero .eyebrow{color:#bff2d9}
+.sos-hero h1{font-size:clamp(36px,4vw,52px);letter-spacing:-2px;margin:6px 0}
+.sos-hero p{max-width:610px;margin:0;color:#e0f1e9;font-size:16px;line-height:1.55}
+.sos-hero img{position:absolute;z-index:1;right:20px;bottom:-20px;width:205px;height:225px;object-fit:contain;filter:drop-shadow(0 11px 18px #092b2c50);animation:sosCup 4.2s ease-in-out infinite}
+@keyframes sosCup{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-7px) rotate(2deg)}}
+.sos-steps{display:flex;flex-wrap:wrap;gap:7px;margin-top:22px}
+.sos-steps span{padding:6px 10px;border:1px solid #dcfff447;border-radius:999px;background:#d5fff019;color:#f3fff8;font-size:11px;font-weight:800}
+.sos-workspace{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(255px,.8fr);gap:18px;align-items:start;margin:20px 0}
+.sos-input-card,.sos-samples,.sos-run-card,.sos-diagnosis,.sos-quiz,.sos-return{border:1px solid #d8e7e1;border-radius:20px;background:#fff;box-shadow:0 5px 24px #153f3710}
+.sos-input-card{padding:23px}
+.sos-card-head h2,.sos-samples h2{margin:4px 0 7px;font-size:23px;letter-spacing:-.5px}
+.sos-card-head p,.sos-samples p{margin:0 0 18px;color:#617c73;font-size:14px;line-height:1.5}
+.sos-field{display:block;margin:14px 0;font-weight:800;font-size:13px;color:#326557}
+.sos-field span{display:block;margin-bottom:7px}
+.sos-field textarea{display:block;width:100%;resize:vertical;padding:15px;border:1px solid #c3d8ce;border-radius:12px;background:#f8fbf9;color:#173c39;line-height:1.55;font:13px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace;tab-size:2}
+#sosCode{min-height:230px}
+#sosError{min-height:105px}
+.sos-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}
+.sos-local-note,.sos-footer-note{color:#667f77;font-size:12px;line-height:1.5}
+.sos-samples{padding:22px}
+.sos-sample-list{display:grid;gap:8px}
+.sos-sample-list button{display:flex;align-items:center;gap:10px;width:100%;min-height:45px;padding:9px 11px;border:1px solid #d7e7df;border-radius:11px;background:#f8fcf9;color:#214d43;text-align:left;font-size:13px;font-weight:800}
+.sos-sample-list button:hover{border-color:#77bda2;background:#eef8f1}
+.sos-sample-list button span{color:#3b9479}
+.sos-sample-list button svg{width:16px;height:16px;margin-left:auto}
+#sosRestore button{width:100%;margin-top:13px;padding:10px;border:1px solid #92c5af;border-radius:11px;background:#eaf8ef;color:#25664e;font-weight:800}
+.sos-findings{scroll-margin-top:95px;margin:24px 0}
+.sos-result-title{display:flex;justify-content:space-between;align-items:center;gap:15px}
+.sos-result-title h2{font-size:clamp(24px,3vw,32px);margin:5px 0;letter-spacing:-.7px}
+.sos-result-title p{margin:0;color:#667e76;font-size:14px}
+.sos-result-count{border-radius:13px;padding:10px 13px;background:#1b705b;color:#fff;font-weight:900;white-space:nowrap}
+.sos-review-note{padding:12px;border:1px solid #a7d8ba;border-radius:11px;background:#eaf8ec;color:#295e48}
+.sos-issue-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.sos-issue-tabs button{padding:9px 12px;border:1px solid #c5ded2;border-radius:10px;background:#f7faf8;color:#38675a;font-weight:750;text-align:left}
+.sos-issue-tabs button.active{background:#196f5b;border-color:#196f5b;color:#fff}
+.sos-diagnosis,.sos-quiz{padding:24px;margin-top:14px}
+.sos-diagnosis-tag{display:inline-block;border-radius:999px;padding:7px 10px;background:#e3f5e9;color:#286b50;font-size:10px;font-weight:900;letter-spacing:1px}
+.sos-diagnosis h3,.sos-quiz h3{font-size:23px;letter-spacing:-.5px;margin:12px 0 8px}
+.sos-diagnosis>p{font-size:15px;line-height:1.6;color:#506c62}
+.sos-evidence{display:grid;gap:8px;padding:14px;margin:15px 0;border-left:4px solid #db9c4f;border-radius:10px;background:#fff8ee}
+.sos-evidence strong{font-size:12px;color:#895b2a}
+.sos-evidence code{overflow-wrap:anywhere;color:#554b3a;font-size:13px}
+.sos-hint-ladder{padding:17px;border:1px solid #c7e4d5;border-radius:14px;background:#f4faf6}
+.sos-hint-ladder strong{color:#225c49}
+.sos-hint-ladder ol{padding-left:21px;margin:10px 0}
+.sos-hint-ladder li{margin:7px 0;line-height:1.5}
+.sos-hint-ladder small{display:block;color:#567469}
+.sos-quiz{background:linear-gradient(115deg,#fff,#f8faf5)}
+.sos-quiz-options{display:grid;gap:8px;margin-top:16px}
+.sos-quiz-options button{display:flex;align-items:center;gap:12px;width:100%;padding:11px;border:1px solid #d7e2da;border-radius:11px;background:#fff;text-align:left;color:#26443b}
+.sos-quiz-options button:hover{border-color:#5cac88}
+.sos-quiz-options button span{display:grid;place-items:center;flex:none;width:28px;height:28px;border-radius:8px;background:#e6f3e9;font-weight:900}
+.sos-quiz-options code{overflow-wrap:anywhere;font-size:13px}
+.sos-quiz-options button.correct{border-color:#59b57c;background:#e8f8ee}
+.sos-quiz-options button.incorrect{border-color:#dc9d91;background:#fff0ec}
+.sos-quiz-feedback{margin:15px 0 0;padding:11px;border-radius:10px;background:#e7f7e9;color:#275e41}
+.sos-quiz-feedback.retry{background:#fff1eb;color:#8d4f35}
+.sos-return{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:20px;margin-top:14px}
+.sos-return strong{font-size:17px}
+.sos-return p{margin:5px 0 0;font-size:13px;line-height:1.5;color:#60796f}
+.sos-run-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:18px;padding:24px;margin:25px 0}
+.sos-run-card h2{font-size:23px;margin:5px 0}
+.sos-run-card p{color:#60796f;font-size:14px;line-height:1.55;margin:0}
+#sosRunPanel{grid-column:1/-1}
+#sosRunPanel:empty{display:none}
+.sos-editor-bar{display:flex;justify-content:space-between;gap:10px;padding:11px 14px;border-radius:11px 11px 0 0;background:#173b3b;color:#fff;font-size:12px}
+#sosEditor{display:block;width:100%;height:460px;border:1px solid #c7ddd4;border-radius:0 0 11px 11px;background:#fff}
+.sos-live-result{padding:13px;margin:13px 0;border:1px solid #d0e5d8;border-radius:11px;background:#f5faf6;color:#365d4e;font-size:13px}
+.sos-live-result pre{overflow:auto;max-height:220px;white-space:pre-wrap;font:12px/1.55 ui-monospace,monospace}
+.sos-footer-note{margin:0 0 30px}
+html[data-theme="dark"] .sos-entry{background:linear-gradient(115deg,#1c413b,#263a36,#3c382d);border-color:#4e8a70;color:#e9f8ed}
+html[data-theme="dark"] .sos-entry p,html[data-theme="dark"] .sos-card-head p,html[data-theme="dark"] .sos-samples p,html[data-theme="dark"] .sos-diagnosis>p,html[data-theme="dark"] .sos-return p,html[data-theme="dark"] .sos-run-card p,html[data-theme="dark"] .sos-local-note,html[data-theme="dark"] .sos-footer-note,html[data-theme="dark"] .sos-result-title p{color:#b9d0c5}
+html[data-theme="dark"] .sos-page{color:#e3f2e9}
+html[data-theme="dark"] .sos-input-card,html[data-theme="dark"] .sos-samples,html[data-theme="dark"] .sos-run-card,html[data-theme="dark"] .sos-diagnosis,html[data-theme="dark"] .sos-quiz,html[data-theme="dark"] .sos-return{background:#1b3033;border-color:#41645a;color:#e3f2e9}
+html[data-theme="dark"] .sos-field{color:#b6e1cc}
+html[data-theme="dark"] .sos-field textarea,html[data-theme="dark"] .sos-sample-list button,html[data-theme="dark"] .sos-issue-tabs button:not(.active),html[data-theme="dark"] .sos-quiz-options button{background:#213c3c;border-color:#4a6a61;color:#e5f2e8}
+html[data-theme="dark"] .sos-hint-ladder,html[data-theme="dark"] .sos-live-result{background:#244139;border-color:#4b735a;color:#e1f4e5}
+html[data-theme="dark"] .sos-diagnosis-tag,html[data-theme="dark"] .sos-quiz-options button span{background:#305644;color:#d6efdf}
+html[data-theme="dark"] .sos-evidence{background:#3a332a;border-color:#c68b4f}
+html[data-theme="dark"] .sos-evidence strong,html[data-theme="dark"] .sos-evidence code{color:#f1dfc4}
+html[data-theme="dark"] .sos-quiz-options button.correct{background:#23543e}
+html[data-theme="dark"] .sos-quiz-options button.incorrect{background:#58392f}
+@media(max-width:800px){.sos-entry{grid-template-columns:47px minmax(0,1fr);padding:17px}.sos-entry-symbol{width:45px;height:45px}.sos-entry button{grid-column:2;justify-self:start}.sos-workspace{grid-template-columns:1fr}.sos-run-card{grid-template-columns:1fr}.sos-run-card>.button{justify-self:start}}
+@media(max-width:580px){.sos-entry{gap:12px}.sos-entry h2{font-size:19px}.sos-entry p{font-size:12px}.sos-hero{min-height:0;padding:25px 22px 135px}.sos-hero h1{font-size:36px}.sos-hero p{font-size:14px}.sos-hero img{width:135px;height:150px;right:4px;bottom:-19px}.sos-steps{max-width:240px}.sos-steps span{font-size:10px}.sos-input-card,.sos-samples,.sos-diagnosis,.sos-quiz,.sos-run-card{padding:17px}.sos-result-title{align-items:start}.sos-return{display:block}.sos-return button{margin-top:12px}.sos-editor-bar{display:block}.sos-editor-bar span{display:block;margin-top:3px}#sosEditor{height:485px}.sos-quiz-options code{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.sos-hero img{animation:none}}
+
+/* Larger professor cutout in the SOS Java banner. */
+.sos-hero{min-height:310px;padding-right:315px}
+.sos-hero img{right:14px;bottom:-105px;width:300px;height:420px;object-position:center top}
+@media(max-width:850px){.sos-hero{min-height:280px;padding-right:250px}.sos-hero img{right:2px;bottom:-88px;width:250px;height:360px}}
+@media(max-width:580px){.sos-hero{min-height:0;padding:25px 22px 170px}.sos-hero img{right:2px;bottom:-80px;width:190px;height:280px}}
+@media(max-width:370px){.sos-hero img{right:-8px;width:170px;height:255px;bottom:-75px}}

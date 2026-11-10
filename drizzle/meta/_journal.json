@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791066210426,
+      "tag": "0000_cheerful_metal_master",
+      "breakpoints": true
+    }
+  ]
+}

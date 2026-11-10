@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "JavaLingo",
+  "short_name": "JavaLingo",
+  "description": "Aprenda Java com trilhas, desafios e laboratório visual de Swing.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f7f8",
+  "theme_color": "#16685e",
+  "icons": [
+    { "src": "/assets/javailson-icon-192.png?v=1", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/javailson-icon-512.png?v=1", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

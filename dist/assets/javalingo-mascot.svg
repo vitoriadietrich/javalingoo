@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Javi, o mascote do JavaLingo</title>
+  <desc id="desc">Bichinho alegre em forma de xícara de café, sobre fundo verde.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#228c7c"/><stop offset="1" stop-color="#145a52"/></linearGradient>
+    <linearGradient id="cup" x2=".8" y2="1"><stop stop-color="#fff8e8"/><stop offset="1" stop-color="#f2dfbf"/></linearGradient>
+    <linearGradient id="rim" x2="0" y2="1"><stop stop-color="#eac99e"/><stop offset="1" stop-color="#c99065"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="254" r="202" fill="#ffffff" opacity=".055"/>
+  <circle cx="256" cy="254" r="161" fill="none" stroke="#ffffff" stroke-width="3" opacity=".13"/>
+  <path d="m104 131 7 18 18 7-18 7-7 18-7-18-18-7 18-7z" fill="#b9ead5" opacity=".9"/>
+  <path d="m400 105 5 13 13 5-13 5-5 13-5-13-13-5 13-5z" fill="#ffd98c"/>
+  <path d="m420 348 5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#b9ead5" opacity=".8"/>
+  <!-- Three curls of steam form the creature's playful tuft. -->
+  <path d="M205 172c-23-22-8-31 4-43 13-13 7-25-2-34M253 163c-22-19-9-34 5-46 14-12 14-27 3-38M300 174c-18-20-8-31 4-43 11-12 8-24 0-31" fill="none" stroke="#f9e6c1" stroke-width="13" stroke-linecap="round" opacity=".96"/>
+  <!-- Feet, little arms and the handle read clearly at app-icon size. -->
+  <ellipse cx="197" cy="422" rx="35" ry="15" fill="#f4d1a5" stroke="#185d53" stroke-width="7"/>
+  <ellipse cx="315" cy="422" rx="35" ry="15" fill="#f4d1a5" stroke="#185d53" stroke-width="7"/>
+  <path d="M374 223c66-24 93 16 81 70-8 39-37 62-78 50" fill="none" stroke="#f7e8c8" stroke-width="27" stroke-linecap="round"/>
+  <path d="M133 306c-32-16-53-3-62 18M381 309c29-22 52-16 63-1" fill="none" stroke="#f4d7a9" stroke-width="17" stroke-linecap="round"/>
+  <path d="M133 199h246v126c0 58-48 99-108 99h-30c-60 0-108-41-108-99z" fill="url(#cup)" stroke="#174e4b" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M130 214c0-20 17-36 38-36h177c21 0 39 16 39 36v8H130z" fill="url(#rim)" stroke="#174e4b" stroke-width="9"/>
+  <ellipse cx="257" cy="203" rx="106" ry="14" fill="#885c43" opacity=".82"/>
+  <path d="M154 237c0 0 38 12 103 12s104-12 104-12" fill="none" stroke="#e8cda7" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="205" cy="305" rx="13" ry="17" fill="#173e3d"/>
+  <ellipse cx="309" cy="305" rx="13" ry="17" fill="#173e3d"/>
+  <circle cx="209" cy="299" r="4" fill="#fff"/>
+  <circle cx="313" cy="299" r="4" fill="#fff"/>
+  <ellipse cx="172" cy="338" rx="20" ry="11" fill="#eaa79b" opacity=".8"/>
+  <ellipse cx="342" cy="338" rx="20" ry="11" fill="#eaa79b" opacity=".8"/>
+  <path d="M232 343c7 11 16 16 25 16s18-5 25-16" fill="none" stroke="#174844" stroke-width="9" stroke-linecap="round"/>
+  <path d="M254 359v7" stroke="#de8c82" stroke-width="6" stroke-linecap="round"/>
+</svg>

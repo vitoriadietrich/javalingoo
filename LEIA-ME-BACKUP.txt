@@ -1,0 +1,16 @@
+BACKUP COMPLETO — JavaLingo
+Data: 24/10/2026 | Versão publicada: 47
+Origem: https://javalingo-original.dietrichvitoria29.chatgpt.site/
+Código-fonte: commit 281eecbefbc47c3ad3ea8a5fb40cfbd958950657
+
+Este ZIP contém todos os arquivos de código e imagens rastreados na versão publicada, o código do servidor (worker), a migração do banco (drizzle) e uma cópia pontual dos dados hospedados em backup-data/. A pasta artwork contém as artes originais do projeto. Não inclui uma segunda cópia dos arquivos gerados, pois eles podem ser reconstruídos integralmente pelo script incluído.
+
+Para consultar a interface localmente: extraia o ZIP e, dentro da pasta JavaLingo, execute:
+  python -m http.server 8000 --directory dist
+Depois abra http://localhost:8000. O jogo em grupo e o Javailson dependem do servidor e de serviços externos; abrir somente a interface local não reproduz essas funções.
+
+Para gerar os arquivos de implantação, execute bash scripts/build.sh; ele produz dist/client e dist/server a partir de dist/ e worker/ sem baixar dependências. Para hospedar toda a aplicação em outro serviço, são necessários um ambiente compatível com o worker, um banco D1 compatível com o esquema em drizzle/ e a configuração privada GEMINI_API_KEY. A chave é um segredo hospedado e não está neste arquivo. Nunca publique a chave dentro do código ou deste ZIP. O editor OneCompiler e as respostas da IA também dependem da disponibilidade e das cotas dos respectivos serviços.
+
+O progresso individual de cada aluno fica no navegador dele (localStorage), não no servidor. Portanto, este ZIP não contém nem pode restaurar o progresso salvo em outros aparelhos. Os dados do banco são uma fotografia da data do backup e podem conter nomes e identificadores de sessões; mantenha o ZIP privado.
+
+O ZIP protege uma cópia do projeto. Ele não paga a hospedagem nem garante que a URL atual continue ativa após alterações de plano. O Site publicado não foi modificado durante este backup.

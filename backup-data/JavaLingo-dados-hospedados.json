@@ -1,0 +1,104 @@
+{
+  "source": "JavaLingo D1 DB",
+  "exported_at": "2026-10-24",
+  "tables": {
+    "reasoning_usage": {
+      "columns": [
+        "day",
+        "visitor",
+        "kind",
+        "count"
+      ],
+      "rows": [
+        {
+          "day": "2026-10-06",
+          "visitor": "123e4567-e89b-12d3-a456-426614174000",
+          "kind": "gemini",
+          "count": 1
+        },
+        {
+          "day": "2026-10-06",
+          "visitor": "all",
+          "kind": "gemini",
+          "count": 4
+        },
+        {
+          "day": "2026-10-06",
+          "visitor": "c4d97c82-0658-4766-89ac-aab4f37a3652",
+          "kind": "gemini",
+          "count": 3
+        }
+      ]
+    },
+    "squad_players": {
+      "columns": [
+        "room_code",
+        "id",
+        "token_hash",
+        "name",
+        "hero",
+        "role",
+        "x",
+        "y",
+        "hp",
+        "shield",
+        "ammo",
+        "power",
+        "last_shot",
+        "last_hit",
+        "last_seen",
+        "answer_wave",
+        "score"
+      ],
+      "rows": [
+        {
+          "room_code": "44KS5T",
+          "id": "VHTF4HXRFR",
+          "token_hash": "b8964d040a16af78b3c8f5ae2a6e4ff989d3bab53ac58a54315f323f3908b301",
+          "name": "Teste Esquadrão",
+          "hero": 0,
+          "role": 0,
+          "x": 521,
+          "y": 430,
+          "hp": 0,
+          "shield": 0,
+          "ammo": 28,
+          "power": 0,
+          "last_shot": 0,
+          "last_hit": 1791066594954,
+          "last_seen": 1791066794454,
+          "answer_wave": 0,
+          "score": 0
+        }
+      ]
+    },
+    "squad_rooms": {
+      "columns": [
+        "code",
+        "arena",
+        "host_id",
+        "phase",
+        "wave",
+        "boss_hp",
+        "teacher_at",
+        "buff_until",
+        "created_at",
+        "updated_at"
+      ],
+      "rows": [
+        {
+          "code": "44KS5T",
+          "arena": 0,
+          "host_id": "VHTF4HXRFR",
+          "phase": "lost",
+          "wave": 1,
+          "boss_hp": 588,
+          "teacher_at": 1791066593462,
+          "buff_until": 0,
+          "created_at": 1791066493166,
+          "updated_at": 1791066571551
+        }
+      ]
+    }
+  }
+}
